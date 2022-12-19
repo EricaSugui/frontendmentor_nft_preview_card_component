@@ -1,0 +1,25 @@
+{
+  "name": "nft-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "first challenge from FrontendMentor, to Decodificadas Trilha 2 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styles/scss/global.scss styles/global.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricaSugui/frontendmentor_nft_preview_card_component.git"
+  },
+  "author": "Erica Daikawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricaSugui/frontendmentor_nft_preview_card_component/issues"
+  },
+  "homepage": "https://github.com/EricaSugui/frontendmentor_nft_preview_card_component#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
