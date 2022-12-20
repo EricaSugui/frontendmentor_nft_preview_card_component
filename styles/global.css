@@ -18,6 +18,8 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 655px) {
   .card {
+    display: flex;
+    flex-direction: column;
     margin: 25px;
     border-radius: 15px;
     background-color: #14253d;
@@ -59,6 +61,8 @@ body {
       color: white; }
       .card .card__title:hover {
         color: #00fff7; }
+      .card .card__title h1 {
+        font-size: 22px; }
     .card p {
       margin: 20px 25px; }
     .card .card__subs {
@@ -151,6 +155,8 @@ body {
       color: white; }
       .card .card__title:hover {
         color: #00fff7; }
+      .card .card__title h1 {
+        font-size: 22px; }
     .card p {
       margin: 20px 25px; }
     .card .card__subs {

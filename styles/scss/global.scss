@@ -36,6 +36,8 @@ body {
 // mobile
 @media screen and (min-width: 320px) and (max-width: 655px) {
     .card {
+        display: flex;
+        flex-direction: column;
         margin: 25px;
         border-radius: 15px;
         background-color: $very-dark-blue-cardbg;
@@ -82,6 +84,9 @@ body {
             color: $white;
             &:hover {
                 color: $cyan;
+            }
+            h1 {
+                font-size: $title;
             }
         }
         p {
@@ -132,8 +137,8 @@ body {
                 }
             }
         }
-
-    }.attribution {
+    }
+    .attribution {
         text-align: center;
         margin-top: 25px;
         font-size: 11px;
@@ -198,6 +203,9 @@ body {
             color: $white;
             &:hover {
                 color: $cyan;
+            }
+            h1 {
+                font-size: $title;
             }
         }
         p {
