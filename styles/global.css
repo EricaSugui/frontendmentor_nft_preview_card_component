@@ -10,10 +10,6 @@ body {
   font-family: Outfit;
   font-weight: 300;
   font-size: 18px; }
-  body a {
-    color: #00fff7; }
-    body a:hover {
-      color: #8bacda; }
 
 @media screen and (min-width: 320px) and (max-width: 655px) {
   .card {
@@ -96,7 +92,9 @@ body {
           color: #00fff7; }
   .attribution {
     text-align: center;
-    margin-top: 25px; }
+    margin-top: 25px;
+    font-size: 11px;
+    text-align: center; }
     .attribution a {
       color: #00fff7; }
       .attribution a:hover {
@@ -186,7 +184,9 @@ body {
           color: #00fff7; }
   .attribution {
     text-align: center;
-    margin-top: 25px; }
+    margin-top: 25px;
+    font-size: 11px;
+    text-align: center; }
     .attribution a {
       color: #00fff7; }
       .attribution a:hover {
