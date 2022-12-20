@@ -9,7 +9,12 @@ body {
   color: white;
   font-family: Outfit;
   font-weight: 300;
-  font-size: 18px; }
+  font-size: 18px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 @media screen and (min-width: 320px) and (max-width: 655px) {
   .card {

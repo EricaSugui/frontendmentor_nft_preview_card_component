@@ -27,6 +27,11 @@ body {
     font-family: $font;
     font-weight: $font-light;
     font-size: $paragraph;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 // mobile
 @media screen and (min-width: 320px) and (max-width: 655px) {
